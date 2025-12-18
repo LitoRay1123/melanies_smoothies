@@ -1,3 +1,6 @@
+import sys
+print ("Python version", sys.version )
+
 # Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
